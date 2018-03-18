@@ -52,7 +52,7 @@ def export_file(conn, dbf_file, shop_number):
     conn.commit()
 
 
-###
+#
 
 
 @click.command()
