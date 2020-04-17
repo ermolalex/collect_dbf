@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+"""
+программа написана для магазина Шаполе.
+Программа собирает файлы продаж - один день/один файл - в базу данных SQLite 
+"""
 import click
 from pathlib import Path
 from dbf import Table
